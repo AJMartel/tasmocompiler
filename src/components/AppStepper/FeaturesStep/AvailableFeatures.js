@@ -217,12 +217,10 @@ const availableFeatures = [
     description: 'stepFeaturesIOExpMCPDesc',
     tooltip: 'stepFeaturesIOExpMCPTooltip',
     group: [
-      'USE_MCP230xx',
-      'USE_MCP230xx_OUTPUT',
-      'USE_MCP230xx_DISPLAYOUTPUT',
+      'USE_PCF8574',
     ],
     include: ['USE_I2C'],
-    custom: '#define USE_MCP230xx_ADDR 0x20\n',
+    custom: '#define USE_PCF8574_ADDR 0x20\n',
     boards: ['all'],
   },
   {
